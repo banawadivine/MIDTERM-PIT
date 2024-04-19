@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,800"');
+* {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  margin: 0;
+}
+.navbar {
+  width: 100%;
+}
+.navbar ul {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 50px;
+  background-color: #0072a5;
+  align-items: center;
+  color: white;
+  font-size: 11.2px;
+  font-weight: 400;
+}
+.navbar li {
+  position: relative;
+  margin-right: 29px;
+}
+.navbar li:hover{
+  cursor: pointer;
+  text-decoration: underline;
+  user-select: none;
+}
+.navbar2 {
+  width: 100%;
+  position: sticky;
+  top: -1px;
+  overflow: visible;
+}
+.navbar2 ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  align-items: center;
+  background-color: #1b365d;
+  height: 90px;
+  color: white;
+  font-size: 12.96px;
+  font-weight: bold;
+}
+.navbar2 li {
+  margin-right: 30px;
+}
+.navbar2 li:hover {
+cursor: pointer;
+user-select: none;
+background-color: #22617e;
+padding: 37px 0 37px 0;
+}
+.walargd{
+color:  white;
+text-decoration: none;
+font-weight: bold;
+}.walargd:hover{
+  color:  white;
+  text-decoration: underline;
+  font-weight: bold;
+  }
+  .kkkk{
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .kkkk:hover{
+    text-decoration: underline;
+  }
+.dashboard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(src/home-hero-winter-2023-4-md.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: white;
+  padding-top: 25%;
+}
+.line {
+  background-color: #f15a22;
+  height: 150px;
+  width: 4px;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  margin-inline: 20px;
+}
+.section2 {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #d9d9d9;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.stats ul {
+  display: flex;
+  text-align: center;
+  list-style: none;
+}
+.section3 {
+  margin-top: 50px;
+}
+.kato {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.imgsoten {
+  display: flex;
+  justify-content: space-around;
+}
+.imgsoten img {
+  width: 350px;
+  height: 450px;
+}
+.imgsoten img:hover {
+  width: 350px;
+  height: 450px;
+  transform: scale(1.05);
+  transition: transform 0.9s ease;
+  cursor: pointer;
+}
+.section4 {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #f2f2f2;
+  margin-top: 80px;
+  padding-top: 70px;
+}
+.section5 {
+  padding-top: 70px;
+  margin-inline: 170px;
+  background-color: #f2f2f2;
+  padding-bottom: 70px;
+}
+.thehun {
+  display: flex;
+  justify-content: space-between;
+}
+.mgagwapa {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+article {
+  background-color: white;
+  padding-bottom: 60px;
+  box-shadow: 5px 5px 10px;
+}
+article img {
+  width: 350px;
+}
+article a {
+  font-size: 17.6px;
+  text-decoration: none;
+  font-weight: 700;
+  color: #1b365d;
+}
+article a:hover {
+  font-size: 17.6px;
+  font-weight: 700;
+  color: #1b365d;
+  text-decoration: underline;
+}
+.section6 {
+  color: white;
+  background-image: url(src/indegenious-bg-lg.webp);
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-top: 100px;
+}
+footer {
+  background-color: #1b365d;
+}
+.footer {
+  margin-inline: 16%;
+  padding-top: 4%;
+  color: white;
+  padding-bottom: 4%;
+}
+.foot1 {
+  display: flex;
+  padding-bottom: 5%;
+}
+.aligntxt {
+  display: flex;
+  justify-content: space-between;
+}
+.aligntxt ul {
+  list-style: none;
+  padding-inline: 0;
+  cursor: pointer;
+}
+.aligntxt li {
+  padding-bottom: 5%;
+}
+.aligntxt li:hover {
+  padding-bottom: 5%;
+  text-decoration: underline;
+}
+.pos {
+  display: flex;
+  margin-right: 10px;
+}
+.pos p {
+  margin-right: 10px;
+  cursor: pointer;
+}
+.pos p:hover {
+  margin-right: 10px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.longoep {
+  display: flex;
+  justify-content: space-between;
+  margin-inline: 16%;
+  font-size: 13.6px;
+
+  color: white;
+}
+.footlong {
+  background-color: #384c7b;
+}
